@@ -7,11 +7,11 @@ var PORT2 = 7500;
 
 //We need a function which handles requests and send response
 function handleRequest (request, response){
-  response.end("<b>ggggggrrrrrrrahhh</b>");
+  response.end("<b>You are great!</b>");
 }
 
 function addRequest(request, response){
-  response.end("<b>panda panda panda panda</b>")
+  response.end("<b>You suck</b>")
 }
 
 //create a server
